@@ -1,0 +1,126 @@
+body 
+{
+  background-color: #f2f2f2; /* Color de fondo */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  margin: 0; /* Elimina los márgenes predeterminados del body */
+}
+
+.container {
+  max-width: 1015px; /* Ancho máximo del contenido */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Color de fondo del contenedor */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+#f
+ {
+  text-align: center;
+  color: #fff;
+  size:25%;
+  
+ }
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  
+}
+
+/* Estilo al pasar el cursor sobre los enlaces */
+a:hover {
+  background-color: grey;
+  color: #fff;
+  border-radius: 2px;
+}
+
+
+.carousel-slide {
+  display: flex;
+  width: calc(100% * 32); /* Ajusta el ancho del carrusel según la cantidad de imágenes */
+  animation: slide 60s infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.carousel-slide img {
+  flex: 1 0 100%;
+  max-height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  16.66% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(calc(-100% / 6)); /* Ajusta el desplazamiento según la cantidad de imágenes */
+  }
+  /* ... Agrega las reglas para los demás porcentajes según la cantidad de imágenes ... */
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carousel-slide img {
+  flex: 1 0 100%;
+  max-width: 1110px; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 350px; /* Ajusta la altura máxima según tus necesidades */
+  object-fit: cover;
+  transition: transform 10s ease;
+}
+
+.carousel {
+  width: 78%; /* Ajusta el ancho del carrusel según tus necesidades */
+  margin: 0 auto;
+  overflow: hidden;
+  
+}
+
+
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+  padding: 20px;
+  color: #fff; /* Color del texto del encabezado */
+  text-align: center;
+  border-radius: 10px 10px 0 0; /* Borde redondeado en la parte superior */
+  max-width: 1015px; /* Ancho máximo del encabezado */
+  margin: 0 auto; /* Centrar el encabezado */
+}
+
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  padding: 20px;
+  color: #fff; /* Color del texto del pie de página */
+  text-align: center;
+  border-radius: 0 0 10px 10px; /* Borde redondeado en la parte inferior */
+  max-width: 1015px; /* Ancho máximo del pie de página */
+  margin: 0 auto; /* Centrar el pie de página */
+}

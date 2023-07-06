@@ -1,0 +1,287 @@
+header{
+
+  height:100px;
+  background-color: #333; /* Color de fondo del encabezado */
+  padding: 20px;
+  margin-top: 10px;
+  top: 5px;
+  color: #fff; /* Color del texto del encabezado */
+  text-align: center;
+  border-radius: 10px 10px 0 0; /* Borde redondeado en la parte superior */
+  margin: 0 auto; /* Centrar el encabezado */
+}
+
+.container__header{
+    max-width: 1015px; /* Ancho máximo del encabezado */
+ 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    padding: 20px;
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center;
+    border-radius: 0 0 10px 10px; /* Borde redondeado en la parte inferior */
+    max-width: 1015px; /* Ancho máximo del pie de página */
+    margin: 0 auto; /* Centrar el pie de página */
+  }
+  
+.logo img{
+    width: 180px;
+}
+
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: opacity 300ms;
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+
+
+.register input,
+.buttons__cover .register{
+    padding: 14px 50px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}   
+
+.register input:hover,
+.buttons__cover .register:hover{
+    background: #69F1A1;
+    color: black;
+}
+
+#tit
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 190%;
+    color: #000;
+    text-align: justify;
+    margin-right: 59%;
+    margin-top:1%;
+      
+}
+
+
+#contenido{
+ width: 100%;
+ margin: auto;
+ display: flex;
+ font-size: 190%;
+ color: #000;
+ text-align: justify;
+ margin-right: 59%;
+ margin-top: 3%;
+}
+
+
+#fondo{
+    display: absolute;
+    margin-left: 11%;
+   background-color: #fff;
+    max-width: 31%;
+    margin-top: 5%;
+    padding: 1%;
+    
+    }
+    
+#p1
+{
+ text-align: center;
+ color: #fff;
+}
+
+.buttons__cover{
+    display: flex;
+    margin-top: 1%;
+    margin-left:19%;
+}
+
+.buttons__cover .read-more{
+    padding: 14px 40px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 300ms;
+    margin-left: 40px;
+}
+
+.buttons__cover .read-more:hover{
+    background: #E8E8E8;
+}
+
+.media{
+    margin-top:-30%;
+    width: 30%;
+    display: flex;
+    margin-left: 46%;
+    
+}
+
+.media video{
+    width:140%;
+    margin-top: -80px;
+    border-radius: 1%;
+}
+
+/*ocultar los datos*/
+#datos
+{
+  display: none;
+}
+
+/* Formulario*/
+
+/*#form
+{
+ display: block;
+ border: 1px solid black; 
+ padding: 10px;
+ margin: 10px;
+ width: 50%;
+ height:70%;
+ margin-left:25%;
+ margin-bottom:20%;  
+}
+*/
+/* Estilos para el formulario */
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin:10px;
+    padding:40px;
+    border: 2px solid #ddd;
+    margin-left:35%;
+
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="comentario"],
+.form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.form input[type="text"].comentario {
+    height: 10%;
+    transition: height 0.3s;
+  }
+  
+  .form input[type="text"].comentario:focus {
+    height: 20%;
+  }
+
+.form input[type="submit"]:hover {
+    background-color: #fff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+.cont {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #efefef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#titulo1
+{
+    border: 2px solid black;
+    display: flex;
+    padding: 30px;
+    margin: 15px;
+    max-width: 800px;
+    margin-left: 18%;
+}
+.titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parr{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #333;
+}
+
+/*Estilo a los resultados*/
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+#comentario {
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
